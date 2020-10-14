@@ -194,7 +194,7 @@ Or more advanced usage with control of the connection
 
     navigator.bluetooth.requestDevice({
         filters:[
-          { namePrefix: 'TSBT BT000' },
+          { namePrefix: 'TS01 BT000' },
           { services: [ NORDIC_SERVICE ] }
         ], optionalServices: [ NORDIC_SERVICE ]}).then(function(device) {
       log(1, 'Device Name:       ' + device.name);
